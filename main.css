@@ -134,6 +134,6 @@ body {
     word-wrap: break-word;
     overflow-wrap: break-word;
     white-space: normal;
-    max-width: 40px;
+    max-width: 150px;
   }
 }
