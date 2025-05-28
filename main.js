@@ -86,7 +86,7 @@ function create() {
       productss.push(product);
     }
   } else {
-    alert("please enter count please");
+    alert("please enter count of product please");
   }
 
   window.localStorage.setItem("products", JSON.stringify(productss));
