@@ -24,7 +24,7 @@ function showFromLocal() {
     products.forEach((product) => {
       table.innerHTML += `
   <tr>
-    <td>${product.id}</td>
+    <td class=first>${product.id}</td>
     <td>${product.title}</td>
     <td>${product.price}</td>
     <td>${product.taxes}</td>
