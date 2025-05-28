@@ -137,7 +137,15 @@ body {
     white-space: normal;
     max-width: 9px;
   }
+  input {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+  }
   input::placeholder {
     font-size: 6px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
   }
 }
