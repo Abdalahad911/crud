@@ -85,6 +85,8 @@ function create() {
     for (let i = 0; i < count.value; i++) {
       productss.push(product);
     }
+  } else {
+    alert("please enter count please");
   }
 
   window.localStorage.setItem("products", JSON.stringify(productss));
