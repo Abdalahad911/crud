@@ -32,8 +32,8 @@ function showFromLocal() {
     <td>${product.discount}</td>
     <td>${product.total}</td>
     <td>${product.category}</td>
-    <td><span class=up>${product.update}</span></td>
-    <td><span class=del>${product.del}</span></td>
+    <td class=before-last><span class=up>${product.update}</span></td>
+    <td class=last><span class=del>${product.del}</span></td>
   </tr>
 
 

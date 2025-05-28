@@ -130,7 +130,7 @@ body {
   table {
     font-size: 5px;
   }
-  td {
+  td:not(.last, .before-last) {
     word-wrap: break-word;
     overflow-wrap: break-word;
     white-space: normal;
