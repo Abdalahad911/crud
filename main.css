@@ -96,7 +96,7 @@ body {
 
     button:hover {
       background-color: rgb(179, 117, 236);
-      letter-spacing: 0.5px;
+      letter-spacing: 0.3px;
     }
     .delete-all {
       width: 100%;
