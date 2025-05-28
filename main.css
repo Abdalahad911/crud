@@ -130,4 +130,10 @@ body {
   table {
     font-size: 5px;
   }
+  td {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    max-width: 40px;
+  }
 }
