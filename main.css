@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: white;
+  background-color: #444;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.crud {
+  width: 80%;
+  margin: 20px auto;
+  padding: 10px 0;
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+  p {
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .inputs {
+    margin: 20px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    input {
+      width: 100%;
+      background-color: #222;
+      border: none;
+      color: white;
+      height: 30px;
+      padding: 0 10px;
+      outline: none;
+    }
+    input::placeholder {
+      text-transform: capitalize;
+    }
+    input:focus {
+      background-color: #000;
+      transform: scale(1.09);
+    }
+    input:focus::placeholder {
+      opacity: 0;
+    }
+
+    #title {
+      flex-basis: 100%;
+      flex-grow: 1;
+    }
+    .price-inputs {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    input {
+      flex-basis: calc(100% / 5);
+      flex-grow: 1;
+    }
+
+    .total {
+      width: fit-content;
+    }
+    .total span:first-child {
+      background-color: red;
+    }
+
+    #count,
+    #category {
+      width: calc(100% / 2 - 5px);
+    }
+    .create,
+    .update {
+      width: 100%;
+    }
+    .update {
+      display: none;
+    }
+    #search {
+      flex-basis: 100%;
+    }
+    button {
+      width: calc((100% / 2) - 5px);
+      background-color: blueviolet;
+      border: none;
+      cursor: pointer;
+      color: white;
+      padding: 5px 5px;
+      border-radius: 10px;
+      font-weight: 700;
+      text-transform: capitalize;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background-color: rgb(179, 117, 236);
+      letter-spacing: 0.5px;
+    }
+    .delete-all {
+      width: 100%;
+    }
+  }
+
+  table {
+    border-collapse: collapse;
+    width: calc(100% - 20px);
+    margin: 10px;
+    th {
+      border: 1px solid red;
+      text-transform: uppercase;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 5px;
+    }
+    td {
+      border: 1px solid red;
+      text-align: center;
+      padding: 10px 5px;
+    }
+    td span {
+      padding: 5px;
+      background-color: blueviolet;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  }
+}

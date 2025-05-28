@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <div class="crud">
+    <h1>cruds</h1>
+    <p>product management system</p>
+    <div class="inputs">
+      <input type="text" id="title" placeholder="title">
+      <div class="price-inputs">
+        <input type="number" id="price" placeholder="price">
+        <input type="number" id="taxes" value=0 placeholder="taxes">
+        <input type="number" id="ads" value=0 placeholder="ads">
+        <input type="number" id="discount" value=0 placeholder="discount">
+        <span class="total"><span class=".tex">total:</span><span>0</span></span>
+      </div>
+      <input type="number" id="count" placeholder="count">
+      <input type="text" id="category" placeholder="category">
+      <button class="create">create</button>
+      <button class="update">update</button>
+      <input type="text" id="search" placeholder="search">
+      <button class=".search-by-title">search by title</button>
+      <button class=".search-by-category">search by category</button>
+      <button class="delete-all">delete all</button>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>id</th>
+          <th>title</th>
+          <th>price</th>
+          <th>price</th>
+          <th>ads</th>
+          <th>discount</th>
+          <th>total</th>
+          <th>category</th>
+          <th>update</th>
+          <th>delete</th>
+        </tr>
+      </thead>
+      <tbody>
+
+      </tbody>
+    </table>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
