@@ -136,7 +136,6 @@ function del(e) {
       window.localStorage.setItem("products", JSON.stringify(ar));
     });
 
-    showFromLocal();
     search();
   }
   if (e.target.classList.contains("up")) {
