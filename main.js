@@ -81,7 +81,7 @@ function create() {
     update: "update",
     del: "delete"
   };
-  if (count.value != "") {
+  if (count.value != "" && title.value != "") {
     for (let i = 0; i < count.value; i++) {
       productss.push(product);
     }
