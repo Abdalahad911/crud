@@ -137,4 +137,7 @@ body {
     white-space: normal;
     max-width: 9px;
   }
+  input::placeholder {
+    font-size: 12px;
+  }
 }
